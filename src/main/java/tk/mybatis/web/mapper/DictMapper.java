@@ -13,7 +13,9 @@ public interface DictMapper {
     //根据条件查询
     List<SysDict> selectBySysDict(SysDict sysDict, RowBounds rowBounds);
 
-    //新增
+    /*
+    新增
+     */
     int insert(SysDict sysDict);
 
     //更新
